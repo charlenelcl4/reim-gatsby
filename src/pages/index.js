@@ -6,6 +6,7 @@ import Hero from '../components/Home/Hero';
 import Features from '../components/Home/Features';
 import NewsSection from '../components/Home/NewsSection';
 import LogoCloud from '../components/LogoCloud';
+import Therapy from '../components/Therapy';
 import Footer from '../components/Footer';
 
 // markup
@@ -18,6 +19,7 @@ const IndexPage = () => {
       <Features pageContext="{locale: language}" />
       <NewsSection pageContext="{locale: language}" />
       <LogoCloud pageContext="{locale: language}" />
+      <Therapy />
       <Footer pageContext="{locale: language}" />
     </Layout>
   );
